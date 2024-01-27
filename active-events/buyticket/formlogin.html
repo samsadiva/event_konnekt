@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <p
+    class="text-green text-center font-weight-bold"
+      style="font-size: 20px;"
+    ><h1>Welcome back to a memorable virtual place! EVENTKONNECT</h1>
+  </p>
+   <h3>Joy is a great tool in a life.</h3>
+    <h2 class="text-blue text-center font-weight-bold" style="font-size: 30px;">
+           Buying a Ticket gives you enjoyment choice, relax => life purppose!
+    </h2>
+     
+    <div class="container">
+      <br />
+
+      <div class="col-lg-5 m-auto d-block">
+        <form action="#" onsubmit="return validation()" class="bg-light">
+          <div class="form-group">
+            <label for="user" class="font-weight-regular"> Full Name </label>
+            <input
+              type="text"
+              name="user"
+              class="form-control"
+              id="user"
+              autocomplete="off"
+            />
+            <div class="col-lg-5 m-auto d-block">
+              <form action="#" onsubmit="return validation()" class="bg-light">
+                <div class="form-group">
+                  <label for="user" class="font-weight-regular"> Email address </label>
+                  <input
+                    type="text"
+                    name="user"
+                    class="form-control"
+                    id="user"
+                    autocomplete="off"
+                  />
+
+            <span id="username" class="text-danger font-weight-regular"> </span>
+          </div>
+          <label for="myComboBox">Which ticket dO you want to buy?</label>
+<select name="options" id="myComboBox">
+    <option value="option1">VIP</option>
+    <option value="option2">VVIP</option>
+    <option value="option3">REGULAR</option>
+</select>
+<label for="myComboBox">Payment system:</label>
+<select name="options" id="myComboBox">
+    <option value="option1">PAYPAL</option>
+    <option value="option2">AIRTEL MONEY</option>
+    <option value="option3">BK</option>
+    <option value="option1">I&M BABK</option>
+    <option value="option2">EQUITY BANK</option>
+    <option value="option3">COGUE BANK</option>
+</select>
+
+<label for="myComboBox">Where would you like to receive a confirmation message:</label>
+<select name="options" id="myComboBox">
+    <option value="option1">sms</option>
+    <option value="option2">email</option>
+    <option value="option3">none</option>
+    <option value="option1">whatsapp Message</option>
+    <option value="option2">Telephone(call)</option>
+</select>
+            <span id="passwords" class="text-danger font-weight-regular">
+            </span>
+          </div>
+
+          <input
+            type="submit"
+            name="bsubmit"
+            value="Buy"
+            class="btn btn-success"
+            autocomplete="off"
+          />
+        </form>
+
+        <br /><br />
+      </div>
+    </div>
+    <script src="./scripts/signup.js"></script>
+  </body>
+</html>
