@@ -41,9 +41,10 @@
 
     .navbar a.sign-up, .navbar a.sign-in {
       background-color: #3498db; /* Blue */
-      color: #ecf0f1;
+      color: #40b9d7;
       border-radius: 5px;
-      margin-left: 10px;
+      margin-left: 5000px;
+      margin-right: 0px;
     }
 
       .navbar #logo {
