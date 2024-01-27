@@ -9,32 +9,40 @@
 </head>
 <body>
     <h1>Registration Form</h1>
-    <p>Please fill out this form with the required information</p>
-    <form action="https://register-demo.freecodecamp.org" method="post">
+    <p >Please fill out this form with the required information</p>
+    <p>Already have an account?
+       <a href="../registration-for-helper/formlogin.html">Signin</a> instead</p> 
+       
+
+        <form method="post" onsubmit="return false;">
         <fieldset>
             <label for="first-name">Enter Your First Name: <input id="first-name" type="text" name="first-name" required /></label>
             <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" name="last-name" required /></label>
             <label for="email">Enter Your Email: <input id="email" type="email" name="email" required /></label>
+            <label for="country-name">Enter Your country Name: <input id="first-name" type="text" name="country" required /></label>
+            <label for="city-name">Enter city Name: <input id="last-name" type="text" name="city-name" required /></label>
         </fieldset>
+        
         <fieldset>
-            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
+            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label><br>
             <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
-            <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+            <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="../terms-and-all/terms-and-condition.txt">terms and conditions</a></label>
         </fieldset>
+    
         <fieldset>
-            <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="profile-picture" /></label>
-            <label for="age">Input your age (years): <input id="business-name" type="number" name="age" min="13" max="120" /></label>
+            <label for="profile-picture">Make agreement with us for better partnership, for that you are required to download, fill and upload this sample contract:) <a href="../terms-and-all/contract.txt"></a><input id="contract" type="file" name="contract" required /></label>
             <label for="referrer">How did you hear about us?
                 <select id="referrer" name="referrer">
                     <option value="">(select one)</option>
-                    <option value="1">freeCodeCamp News</option>
-                    <option value="2">freeCodeCamp YouTube Channel</option>
-                    <option value="3">freeCodeCamp Forum</option>
+                    <option value="1">Social Media</option>
+                    <option value="2">Frirend</option>
+                    <option value="3">referrer</option>
                     <option value="4">Other</option>
               </select>
             </label>
+            <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="picture" required /></label>
             <label for="bio">Provide a bio:
-                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Tell us about you..."></textarea>
             </label>
             <label for="new-password">Create a New Password: <input id="new-password" type="password" name="new-password" pattern="[a-z0-5]{8,}" required /></label>
         </div>
@@ -51,8 +59,9 @@
           <span id="confrmpass" class="text-danger font-weight-regular">
           </span>
         </div>
+     
         </fieldset>
-        <input type="submit" value="Submit" />
+        <input id ="submit" type="submit" value="Submit" />
     </form>
 </body>
 </html>

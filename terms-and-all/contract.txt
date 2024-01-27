@@ -1,0 +1,55 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<BETA>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+EVENTKONNECT Agreement
+
+This Agreement is made and entered into as of 2024, by and between EVENTKONNECT, a ................ with its principal place of business located at EVENTKONNECT KIGALI(PROVIDER), and .....................................,  with its principal place of business located at ......................................... ("Client").
+
+Whereas, Provider operates an Event Management System named EVENTKONNECT which offers a platform for event management, coordination, and related services;
+
+Whereas, Client desires to utilize the Provider’s Event Management System for the purpose of planning, managing, and executing events and/or offering services and products related to event management;
+
+Now, Therefore, in consideration of the mutual promises, covenants, and conditions contained herein, the parties agree as follows:
+
+1. Services Provided:
+
+Provider agrees to grant Client access to EVENTKONNECT, which includes [list of features and services offered].
+Client agrees to use the system in accordance with the terms and conditions set forth by Provider.
+2. Payment Terms:
+
+[Detail payment terms, fees, subscription models, if applicable].
+3. Responsibilities of Client:
+
+Client shall use the Event Management System in compliance with all applicable laws, regulations, and in a manner that does not infringe on the rights of third parties.
+Client is responsible for the accuracy and legality of the content they provide or upload to the system.
+4. Intellectual Property:
+
+All intellectual property rights in the Event Management System and its content, excluding content provided by Client, shall remain the property of Provider.
+5. Confidentiality:
+
+Both parties agree to maintain the confidentiality of any proprietary or confidential information shared during the term of this agreement.
+6. Termination:
+
+This agreement may be terminated by either party with written notice [specify notice period] in advance.
+7. Limitation of Liability:
+
+Provider shall not be liable for any indirect, incidental, special, or consequential damages resulting from the use of the Event Management System.
+8. Dispute Resolution:
+
+Any disputes arising out of this agreement shall first be attempted to be resolved through amicable negotiation. Failing which, disputes shall be resolved through arbitration/mediation [as per applicable law/jurisdiction].
+9. Miscellaneous:
+
+This Agreement constitutes the entire agreement between the parties and supersedes all prior agreements or communications.
+The Agreement may be amended only by written agreement signed by both parties.
+In Witness Whereof, the parties hereto have executed this Agreement as of the date first above written.
+
+EVENTKONNECT Signature: _________________________
+Name:
+Title:
+Date:
+
+[Client's Company Name] Signature: _________________________
+Name:
+Title:
+Date:
+
